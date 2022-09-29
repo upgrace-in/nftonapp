@@ -1,3 +1,5 @@
+import Whitelisting from './Whitelisting'
+
 export default function Header() {
     return (
         <div className="Header">
@@ -19,10 +21,8 @@ export default function Header() {
                 </div>
                 <div className="mob_bot">
                     <ul>
-                        <li><a className="creative_link" href="#home">Home</a></li>
                         <li><a className="creative_link" href="#about">About</a></li>
                         <li><a className="creative_link" href="#collection">Collection</a></li>
-                        <li><a className="creative_link" href="#news">Blog</a></li>
                         <li><a className="creative_link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -42,16 +42,14 @@ export default function Header() {
 
                         <div className="nav">
                             <ul>
-                                <li><a className="creative_link" href="#home">Home</a></li>
                                 <li><a className="creative_link" href="#about">About</a></li>
                                 <li><a className="creative_link" href="#collection">Collection</a></li>
-                                <li><a className="creative_link" href="#news">Blog</a></li>
                                 <li><a className="creative_link" href="#contact">Contact</a></li>
                             </ul>
                         </div>
 
                         <div className="wallet">
-                            <a href="#" className="metaportal_fn_button wallet_opener"><span>Connect To Wallet</span></a>
+                            <Whitelisting/>
                         </div>
 
                     </div>

@@ -4,11 +4,11 @@ export default function About(){
 			<div className="fn_cs_about">
 				<div className="left_part">
 					<div className="img">
-						<div className="img_in" data-bg-img="img/about/1.jpg"><img src="img/1x1.jpg" alt=""/></div>
+						<div className="img_in" data-bg-img="assets/NFTON.IO.png"><img src="img/1x1.jpg" alt=""/></div>
 					</div>
 					<div className="bg_overlay">
 						<div className="bg_color"></div>
-						<div className="bg_image" data-bg-img="img/about/bg.jpg"></div>
+						<div className="bg_image" data-bg-img="watermarks/CG_8.png"></div>
 					</div>
 				</div>
 				<div className="right_part">
@@ -32,7 +32,7 @@ export default function About(){
 			</div>
 			
 			
-			<div className="container">
+			<div className="container" id="how-to-mint">
 				<div className="fn_cs_mint">
 					<div className="left_part">
 						<h3 className="fn__maintitle" data-text="How to Mint">How to Mint</h3>
@@ -46,7 +46,7 @@ export default function About(){
 							<p>As the first hero of the Meta Legends, collection has over 9,999 unique skins drawn from the different missions and challenges he faced throughout his life.</p>
 							<p>The artwork has been hand-drawned by Robert Green in the traditional anime style and composited by Layla Efiyo.</p>
 							<p>Curabitur pharetra velit eget dignissim varius. In vulputate elit at tortor pellentesque, non pulvinar neque consequat. Aenean tristique odio in libero tincidunt maximus. Nulla pharetra viverra dolor ut blandit. Cras finibus vel tortor eget lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi nec felis auctor, tincidunt lacus sit amet, iaculis ipsum. Phasellus tempus sit amet justo et feugiat. Duis blandit semper lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget neque bibendum, eget euismod justo mollis.</p>
-							<p>Donec tristique porttitor sem, eget fermentum elit varius nec. Donec ut orci ipsum. Morbi efficitur felis eget dapibus fermentum. Phasellus sed tellus volutpat, hendrerit leo non, sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl tellus, at congue odio commodo at. Cras ante enim, sodales at pretium et, tempus at libero.</p>
+							{/* <p>Donec tristique porttitor sem, eget fermentum elit varius nec. Donec ut orci ipsum. Morbi efficitur felis eget dapibus fermentum. Phasellus sed tellus volutpat, hendrerit leo non, sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl tellus, at congue odio commodo at. Cras ante enim, sodales at pretium et, tempus at libero.</p> */}
 						</div>
 						<a href="nft-single.html" className="metaportal_fn_button"><span>How to Mint</span></a>
 					</div>
@@ -89,12 +89,12 @@ export default function About(){
 								</li>
 							</ul>
 						</div>
-						<div className="fn_cs_video">
+						{/* <div className="fn_cs_video">
 							<img src="img/video/1.jpg" alt=""/>
 							<a className="popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas">
 								<img src="svg/play.svg" alt="" className="fn__svg"/>
 							</a>
-						</div>
+						</div> */}
 						
 					</div>
 					

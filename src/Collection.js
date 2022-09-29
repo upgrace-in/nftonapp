@@ -1,3 +1,5 @@
+import Whitelisting from './Whitelisting'
+
 export default function Collection() {
     return (
         <section id="collection">
@@ -10,83 +12,83 @@ export default function Collection() {
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="img/collection/1.jpg"></div>
+                                    <div className="abs_img" data-bg-img="watermarks/CG_1.png"></div>
                                     <img src="img/1x1.jpg" alt=""/>
                                 </div>
                             </div>
-                            <input type="hidden" value="img/collection/1.jpg"/>
+                            <input type="hidden" value="watermarks/CG_1.png"/>
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="img/collection/2.jpg"></div>
+                                    <div className="abs_img" data-bg-img="watermarks/CG_2.png"></div>
                                     <img src="img/1x1.jpg" alt=""/>
                                 </div>
                             </div>
-                            <input type="hidden" value="img/collection/2.jpg"/>
+                            <input type="hidden" value="watermarks/CG_2.png"/>
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="img/collection/3.jpg"></div>
+                                    <div className="abs_img" data-bg-img="watermarks/CG_3.png"></div>
                                     <img src="img/1x1.jpg" alt=""/>
                                 </div>
                             </div>
-                            <input type="hidden" value="img/collection/3.jpg"/>
+                            <input type="hidden" value="watermarks/CG_3.png"/>
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="img/collection/4.jpg"></div>
+                                    <div className="abs_img" data-bg-img="watermarks/CG_4.png"></div>
                                     <img src="img/1x1.jpg" alt=""/>
                                 </div>
                             </div>
-                            <input type="hidden" value="img/collection/4.jpg"/>
+                            <input type="hidden" value="watermarks/CG_4.png"/>
                         </div>
                     </div>
                     <div className="collection_bottom">
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="img/collection/5.jpg"></div>
+                                    <div className="abs_img" data-bg-img="watermarks/CG_5.png"></div>
                                     <img src="img/1x1.jpg" alt=""/>
                                 </div>
                             </div>
-                            <input type="hidden" value="img/collection/5.jpg"/>
+                            <input type="hidden" value="watermarks/CG_5.png"/>
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="img/collection/6.jpg"></div>
+                                    <div className="abs_img" data-bg-img="watermarks/CG_6.png"></div>
                                     <img src="img/1x1.jpg" alt=""/>
                                 </div>
                             </div>
-                            <input type="hidden" value="img/collection/6.jpg"/>
+                            <input type="hidden" value="watermarks/CG_6.png"/>
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="img/collection/7.jpg"></div>
+                                    <div className="abs_img" data-bg-img="watermarks/CG_7.png"></div>
                                     <img src="img/1x1.jpg" alt=""/>
                                 </div>
                             </div>
-                            <input type="hidden" value="img/collection/7.jpg"/>
+                            <input type="hidden" value="watermarks/CG_7.png"/>
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="img/collection/8.jpg"></div>
+                                    <div className="abs_img" data-bg-img="watermarks/CG_8.png"></div>
                                     <img src="img/1x1.jpg" alt=""/>
                                 </div>
                             </div>
-                            <input type="hidden" value="img/collection/8.jpg"/>
+                            <input type="hidden" value="watermarks/CG_8.png"/>
                         </div>
                     </div>
                 </div>
 
                 <div className="fn_cs_desc">
                     <p>Meta Legends represent a collection of 17,000 legends categorized by level of rarity and generated with hundreds of elements. The Legends are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS.</p>
-                    <a href="collection.html" className="metaportal_fn_button"><span>See All Collection</span></a>
+                    <Whitelisting/>
                 </div>
 
             </div>

@@ -9,7 +9,7 @@ export default function Contact(){
 				</div>
 				
 				<div className="fn_cs_contact_form">
-					<form action="/" method="post" className="contact_form" id="contact_form" autocomplete="off">
+					<form action="/" method="post" className="contact_form" id="contact_form" autoComplete="off">
 						<div className="input_list">
 							<ul>
 								<li>
@@ -18,23 +18,17 @@ export default function Contact(){
 								<li>
 									<input id="email" type="text" placeholder="Your Email *" />
 								</li>
-								<li>
-									<input id="tel" type="text" placeholder="Your Phone (optional)" />
-								</li>
-								<li>
-									<input id="subject" type="text" placeholder="Topic (optional)" />
-								</li>
 								<li className="full">
 									<textarea id="message" placeholder="Your Message *"></textarea>
 								</li>
 								<li className="full">
-									<label className="fn__checkbox">
+									{/* <label className="fn__checkbox">
 										<input type="checkbox"/>
 										<span className="fn__checkmark">
 											<img src="svg/checked.svg" alt="" className="fn__svg"/>
 										</span>
 										<p>I’m okay with getting emails and having that activity tracked to improve my experience.</p>
-									</label>
+									</label> */}
 									<div className="mw300">
 										<a id="send_message" href="#" className="metaportal_fn_button full">
 											<span>Send Message</span>
