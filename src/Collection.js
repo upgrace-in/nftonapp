@@ -13,37 +13,37 @@ export default function Collection() {
                             <div className="item_in">
                                 <div className="img">
                                     <div className="abs_img" data-bg-img="watermarks/CG_1.png"></div>
-                                    <img src="img/1x1.jpg" alt=""/>
+                                    <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_1.png"/>
+                            <input type="hidden" value="watermarks/CG_1.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
                                     <div className="abs_img" data-bg-img="watermarks/CG_2.png"></div>
-                                    <img src="img/1x1.jpg" alt=""/>
+                                    <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_2.png"/>
+                            <input type="hidden" value="watermarks/CG_2.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
                                     <div className="abs_img" data-bg-img="watermarks/CG_3.png"></div>
-                                    <img src="img/1x1.jpg" alt=""/>
+                                    <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_3.png"/>
+                            <input type="hidden" value="watermarks/CG_3.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
                                     <div className="abs_img" data-bg-img="watermarks/CG_4.png"></div>
-                                    <img src="img/1x1.jpg" alt=""/>
+                                    <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_4.png"/>
+                            <input type="hidden" value="watermarks/CG_4.png" />
                         </div>
                     </div>
                     <div className="collection_bottom">
@@ -51,44 +51,44 @@ export default function Collection() {
                             <div className="item_in">
                                 <div className="img">
                                     <div className="abs_img" data-bg-img="watermarks/CG_5.png"></div>
-                                    <img src="img/1x1.jpg" alt=""/>
+                                    <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_5.png"/>
+                            <input type="hidden" value="watermarks/CG_5.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
                                     <div className="abs_img" data-bg-img="watermarks/CG_6.png"></div>
-                                    <img src="img/1x1.jpg" alt=""/>
+                                    <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_6.png"/>
+                            <input type="hidden" value="watermarks/CG_6.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
                                     <div className="abs_img" data-bg-img="watermarks/CG_7.png"></div>
-                                    <img src="img/1x1.jpg" alt=""/>
+                                    <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_7.png"/>
+                            <input type="hidden" value="watermarks/CG_7.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
                                     <div className="abs_img" data-bg-img="watermarks/CG_8.png"></div>
-                                    <img src="img/1x1.jpg" alt=""/>
+                                    <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_8.png"/>
+                            <input type="hidden" value="watermarks/CG_8.png" />
                         </div>
                     </div>
                 </div>
 
                 <div className="fn_cs_desc">
-                    <p>Meta Legends represent a collection of 17,000 legends categorized by level of rarity and generated with hundreds of elements. The Legends are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS.</p>
-                    <Whitelisting/>
+                    <p>NFTs backed by our people with an extensive knowledge of the web3 space 'cause we want to provide value for our holders and for the entire nft community.</p>
+                    <Whitelisting />
                 </div>
 
             </div>

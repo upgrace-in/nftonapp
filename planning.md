@@ -1,8 +1,4 @@
-NFT
-How to Mint
-Minting page
-
-***Get your NFT website ready with US***
-Samples
-FAQ
-Contact US
+Font family
+About us content
+MAX SUPPLY details
+Whitelisted and Contact US working

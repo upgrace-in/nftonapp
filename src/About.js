@@ -34,7 +34,7 @@ export default function About(){
 			
 			<div className="container" id="how-to-mint">
 				<div className="fn_cs_mint">
-					<div className="left_part">
+					<div>
 						<h3 className="fn__maintitle" data-text="How to Mint">How to Mint</h3>
 						<div className="fn_cs_divider">
 							<div className="divider">
@@ -42,17 +42,6 @@ export default function About(){
 								<span></span>
 							</div>
 						</div>
-						<div className="desc">
-							<p>As the first hero of the Meta Legends, collection has over 9,999 unique skins drawn from the different missions and challenges he faced throughout his life.</p>
-							<p>The artwork has been hand-drawned by Robert Green in the traditional anime style and composited by Layla Efiyo.</p>
-							<p>Curabitur pharetra velit eget dignissim varius. In vulputate elit at tortor pellentesque, non pulvinar neque consequat. Aenean tristique odio in libero tincidunt maximus. Nulla pharetra viverra dolor ut blandit. Cras finibus vel tortor eget lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi nec felis auctor, tincidunt lacus sit amet, iaculis ipsum. Phasellus tempus sit amet justo et feugiat. Duis blandit semper lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget neque bibendum, eget euismod justo mollis.</p>
-							{/* <p>Donec tristique porttitor sem, eget fermentum elit varius nec. Donec ut orci ipsum. Morbi efficitur felis eget dapibus fermentum. Phasellus sed tellus volutpat, hendrerit leo non, sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl tellus, at congue odio commodo at. Cras ante enim, sodales at pretium et, tempus at libero.</p> */}
-						</div>
-						<a href="nft-single.html" className="metaportal_fn_button"><span>How to Mint</span></a>
-					</div>
-					
-					<div className="right_part">
-						
 						<div className="fn_cs_steps">
 							<ul>
 								<li>
@@ -89,14 +78,16 @@ export default function About(){
 								</li>
 							</ul>
 						</div>
-						{/* <div className="fn_cs_video">
-							<img src="img/video/1.jpg" alt=""/>
-							<a className="popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas">
-								<img src="svg/play.svg" alt="" className="fn__svg"/>
-							</a>
+						{/* <div className="desc">
+							<p>As the first hero of the Meta Legends, collection has over 9,999 unique skins drawn from the different missions and challenges he faced throughout his life.</p>
+							<p>The artwork has been hand-drawned by Robert Green in the traditional anime style and composited by Layla Efiyo.</p>
+							<p>Curabitur pharetra velit eget dignissim varius. In vulputate elit at tortor pellentesque, non pulvinar neque consequat. Aenean tristique odio in libero tincidunt maximus. Nulla pharetra viverra dolor ut blandit. Cras finibus vel tortor eget lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi nec felis auctor, tincidunt lacus sit amet, iaculis ipsum. Phasellus tempus sit amet justo et feugiat. Duis blandit semper lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget neque bibendum, eget euismod justo mollis.</p>
+							<p>Donec tristique porttitor sem, eget fermentum elit varius nec. Donec ut orci ipsum. Morbi efficitur felis eget dapibus fermentum. Phasellus sed tellus volutpat, hendrerit leo non, sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl tellus, at congue odio commodo at. Cras ante enim, sodales at pretium et, tempus at libero.</p>
 						</div> */}
-						
+						{/* <a href="nft-single.html" className="metaportal_fn_button"><span>How to Mint</span></a> */}
 					</div>
+					
+					
 					
 				</div>
 			</div>
