@@ -13,6 +13,7 @@
 	<title>NFTON.IO - Premium NFT Collections</title>
 
 	<!-- Google Fonts -->
+	<link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
@@ -28,10 +29,12 @@
 	<!-- !Styles -->
 
 	<style>
-		html, body{
+		html,
+		body {
 			scroll-behavior: smooth;
 		}
-		.text-center{
+
+		.text-center {
 			margin-right: auto;
 			margin-left: auto;
 			text-align: center;
@@ -99,6 +102,7 @@
 					</li>
 				</ul>
 			</div>
+
 			<div class="nav_holder">
 
 				<!-- For JS -->
@@ -108,9 +112,9 @@
 				<!-- For JS -->
 
 				<ul>
-					<li><a href="#about"><span class="creative_link">About</span></a></li>
-					<li><a href="#collection"><span class="creative_link">Collection</span></a></li>
-					<li><a href="#contact"><span class="creative_link">Contact</span></a></li>
+					<li><a class="move" href="#about"><span class="creative_link">About</span></a></li>
+					<li><a class="move" href="#collection"><span class="creative_link">Collection</span></a></li>
+					<li><a class="move" href="#contact"><span class="creative_link">Contact</span></a></li>
 				</ul>
 			</div>
 			<!-- <div class="info_holder">
@@ -151,12 +155,21 @@
 	<!-- !Main -->
 
 	<script>window.global = window</script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script type="text/javascript" src="js/plugins.js?ver=2"></script>
-    <script type="text/javascript" src="js/init.js?ver=2"></script>
-    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
-    <script src="https://unpkg.com/web3modal"></script>
-    <script src="https://unpkg.com/@walletconnect/web3-provider"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script type="text/javascript" src="js/plugins.js?ver=2"></script>
+	<script type="text/javascript" src="js/init.js?ver=2"></script>
+	<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+	<script src="https://unpkg.com/web3modal"></script>
+	<script src="https://unpkg.com/@walletconnect/web3-provider"></script>
+	<script>
+		$(document).ready(() => {
+			$('.move').click(() => {
+				$('.metaportal_fn_leftnav').removeClass('active')
+				$('.metaportal_fn_leftnav_closer').removeClass('active')
+				$('.fn__closer').removeClass('active')
+			})
+		})
+	</script>
 </body>
 
 </html>

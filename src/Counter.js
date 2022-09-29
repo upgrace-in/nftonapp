@@ -9,7 +9,7 @@ export default function Counter(){
 							<div className="item">
 								<h3 className="fn__gradient_title">
 									<span className="prefix"></span>
-									<span className="fn_cs_counter" data-from="0" data-to="9999" data-speed="3000" data-decimals="0">0</span>
+									<span className="fn_cs_counter" data-from="0" data-to="369" data-speed="4000" data-decimals="0">0</span>
 									<span className="suffix"></span>
 								</h3>
 								<p>Total Items</p>
@@ -20,7 +20,7 @@ export default function Counter(){
 							<div className="item">
 								<h3 className="fn__gradient_title">
 									<span className="prefix"></span>
-									<span className="fn_cs_counter" data-from="0" data-to="3.9" data-speed="3000" data-decimals="1">0</span>
+									<span className="fn_cs_counter" data-from="0" data-to="70" data-speed="4000" data-decimals="0">0</span>
 									<span className="suffix">k+</span>
 								</h3>
 								<p>Total Owners</p>
@@ -31,7 +31,7 @@ export default function Counter(){
 							<div className="item">
 								<h3 className="fn__gradient_title">
 									<span className="prefix"></span>
-									<span className="fn_cs_counter" data-from="0" data-to="2.4" data-speed="3000" data-decimals="1">0</span>
+									<span className="fn_cs_counter" data-from="0" data-to="0.0639" data-speed="100" data-decimals="1">0</span>
 									<span className="suffix"></span>
 								</h3>
 								<p>Floor Price (ETH)</p>
@@ -42,10 +42,10 @@ export default function Counter(){
 							<div className="item">
 								<h3 className="fn__gradient_title">
 									<span className="prefix"></span>
-									<span className="fn_cs_counter" data-from="0" data-to="144" data-speed="3000" data-decimals="0">0</span>
-									<span className="suffix">k+</span>
+									<span className="fn_cs_counter" data-from="0" data-to="24" data-speed="2000" data-decimals="0">0</span>
+									<span className="suffix">+</span>
 								</h3>
-								<p>Volume Traded (ETH)</p>
+								<p>dApp Projects</p>
 								<div className="divider"></div>
 							</div>
 						</li>
