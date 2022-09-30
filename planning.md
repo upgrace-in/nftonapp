@@ -1,4 +1,3 @@
-FAQ details
 Whitelisted and Contact US working
 SEO
 

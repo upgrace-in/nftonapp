@@ -12,7 +12,7 @@ export default function Counter(){
 									<span className="fn_cs_counter" data-from="0" data-to="369" data-speed="4000" data-decimals="0">0</span>
 									<span className="suffix"></span>
 								</h3>
-								<p>No. of Scarlett Girl</p>
+								<p>Total Scarlett NFTs</p>
 								<div className="divider"></div>
 							</div>
 						</li>
@@ -20,21 +20,10 @@ export default function Counter(){
 							<div className="item">
 								<h3 className="fn__gradient_title">
 									<span className="prefix"></span>
-									<span className="fn_cs_counter" data-from="0" data-to="30" data-speed="4000" data-decimals="0">0</span>
-									<span className="suffix">k+</span>
-								</h3>
-								<p>Total Nft Owners</p>
-								<div className="divider"></div>
-							</div>
-						</li>
-						<li>
-							<div className="item">
-								<h3 className="fn__gradient_title">
-									<span className="prefix"></span>
-									<span className="fn_cs_counter" data-from="0" data-to="0.0639" data-speed="100" data-decimals="2">0</span>
+									<span className="fn_cs_counter" data-from="0" data-to="3" data-speed="4000" data-decimals="0">0</span>
 									<span className="suffix"></span>
 								</h3>
-								<p>Floor Price (ETH)</p>
+								<p>Max Mint Amount</p>
 								<div className="divider"></div>
 							</div>
 						</li>
@@ -42,10 +31,21 @@ export default function Counter(){
 							<div className="item">
 								<h3 className="fn__gradient_title">
 									<span className="prefix"></span>
-									<span className="fn_cs_counter" data-from="0" data-to="24" data-speed="2000" data-decimals="0">0</span>
-									<span className="suffix">+</span>
+									<span className="fn_cs_counter" data-from="0" data-to="0.03" data-speed="100" data-decimals="2">0</span>
+									<span className="suffix"></span>
 								</h3>
-								<p>dApp Projects</p>
+								<p>Whitelist Cost (in ETH)</p>
+								<div className="divider"></div>
+							</div>
+						</li>
+						<li>
+							<div className="item">
+								<h3 className="fn__gradient_title">
+									<span className="prefix"></span>
+									<span className="fn_cs_counter" data-from="0" data-to="0.06" data-speed="2000" data-decimals="2">0</span>
+									<span className="suffix"></span>
+								</h3>
+								<p>Public Cost (in ETH)</p>
 								<div className="divider"></div>
 							</div>
 						</li>

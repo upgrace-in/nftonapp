@@ -652,7 +652,7 @@ var MetaPortalFilterArray = [];
 											<div class="count">
 												<h3 class="fn__gradient_title"></h3>
 											</div>
-											<span>Hrs</span>
+											<span>Hours</span>
 										</div>
 									</li>
 									<li class="minutes">

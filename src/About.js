@@ -22,7 +22,7 @@ export default function About(){
 						</div>
 						<div className="desc">
 							<p>We have a need for uniqueness, to express ourselves, to be recognized and at the same time we want to be part of something bigger than us, we want to belong, to connect.</p>
-							<p>Through blockchain technologies we are merging our universe with yours. As we value uniqueness, community, competition, and entertainment above all else we want to create a bridge.</p>
+							<p>Through blockchain technologies we are merging our universe with yours. As we value uniqueness, community, competition, and entertainment above all else we want to create a bridge between web2 &amp; web3</p>
 							<p>We have downloaded our avatars to these things you call NFTs and want you to help us live the rush of euphoria that only humans experience.</p>
 							<p>-Yeah yeah. That's sounds good, very professional.</p>
 							<p>-I know, right?</p>
