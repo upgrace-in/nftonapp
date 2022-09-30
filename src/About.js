@@ -2,18 +2,18 @@ export default function About(){
     return (
         <section id="about">
 			<div className="fn_cs_about">
-				<div className="left_part">
+				<div className="left_part lp">
 					<div className="img">
 						<div className="img_in" data-bg-img="assets/NFTON.IO.png"><img src="img/1x1.jpg" alt=""/></div>
 					</div>
-					<div className="bg_overlay">
+					<div className="bg_overlay bo">
 						<div className="bg_color"></div>
 						<div className="bg_image" data-bg-img="watermarks/CG_8.png"></div>
 					</div>
 				</div>
 				<div className="right_part">
 					<div className="right_in">
-						<h3 className="fn__maintitle" data-text="The Rise of Legends">The Rise of Legends</h3>
+						<h3 className="fn__maintitle" data-text="The Rise of NFTON.IO">The Rise of NFTON.IO</h3>
 						<div className="fn_cs_divider">
 							<div className="divider">
 								<span></span>

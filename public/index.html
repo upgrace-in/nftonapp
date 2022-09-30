@@ -29,6 +29,16 @@
 	<!-- !Styles -->
 
 	<style>
+		@font-face {
+			font-family: stella;
+			src: url('fonts/stella.ttf');
+		}
+
+		@font-face {
+			font-family: dreaming;
+			src: url('fonts/dreaming.otf');
+		}
+
 		html,
 		body {
 			scroll-behavior: smooth;
@@ -38,6 +48,24 @@
 			margin-right: auto;
 			margin-left: auto;
 			text-align: center;
+		}
+
+		h3{
+			font-family: stella !important;
+		}
+
+		p, a, .text, input::placeholder, textarea::placeholder{
+			font-family: dreaming !important;
+		}
+
+		@media (max-width: 767px) {
+			.bo {
+				display: none;
+			}
+
+			.lp {
+				padding: 0px !important;
+			}
 		}
 	</style>
 

@@ -1,11 +1,12 @@
 import Whitelisting from './Whitelisting'
+import Timer from './Timer'
 
 export default function Home() {
     return (
         <section id="home">
             <div className="container">
 
-                <h3 className="fn__maintitle big" data-text="Mint a Scarlett GIRL" data-align="center">Mint a Scarlett GIRL</h3>
+                <h3 className="fn__maintitle big" data-text="Scarlett GIRL" data-align="center">Scarlett GIRL</h3>
 
                 <div className="fn_cs_slider" data-responsive="on">
                     <div className="slider_top">
@@ -83,7 +84,9 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="fn_cs_desc">
-                    <p>NFTON.IO represent a collection of premium NFTs categorized by level of rarity and generated with hundreds of elements. The Legends are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS.</p>
+                    <Timer/>
+                    <br/>
+                    {/* <p>NFTON.IO represent a collection of premium NFTs categorized by level of rarity and generated with hundreds of elements. The Legends are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS.</p> */}
                     <Whitelisting/>
                 </div>
 
