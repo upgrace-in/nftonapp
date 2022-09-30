@@ -21,14 +21,14 @@ export default function Contact() {
 						<li>
 							<div className="item">
 								<h4 className="label">Social</h4>
-								<h3><a href="https://twitter.com/NFTON_IO">Follow us on Twitter</a></h3>
+								<h3><a target="_blank" href="https://twitter.com/NFTON_IO">Follow us on Twitter</a></h3>
 							</div>
 						</li>
 					</ul>
 				</div>
 
 				<div className="fn_cs_contact_form">
-					<form action="/" method="post" className="contact_form" id="contact_form" autoComplete="off">
+					<form className="contact_form" id="contact_form" autoComplete="off">
 						<div className="input_list">
 							<ul>
 								<li>
@@ -46,7 +46,6 @@ export default function Contact() {
 											<span>Send Query</span>
 										</a>
 									</div>
-
 								</li>
 							</ul>
 						</div>

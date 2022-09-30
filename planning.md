@@ -1,22 +1,2 @@
 Whitelisted and Contact US working
 SEO
-
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyCWPeyNoNqWgExoUxzk-o1EGQADsqEN84w",
-    authDomain: "nftonio-e58f3.firebaseapp.com",
-    projectId: "nftonio-e58f3",
-    storageBucket: "nftonio-e58f3.appspot.com",
-    messagingSenderId: "1063527472820",
-    appId: "1:1063527472820:web:0f358d09841ac014e3c1e1"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-</script>
