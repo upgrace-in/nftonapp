@@ -21,10 +21,11 @@ export default function About(){
 							</div>
 						</div>
 						<div className="desc">
-							<p>As the first hero of the Meta Legends, collection has over 9,999 unique skins drawn from the different missions and challenges he faced throughout his life.</p>
-							<p>The artwork has been hand-drawned by Robert Green in the traditional anime style and composited by Layla Efiyo.</p>
-							<p>Curabitur pharetra velit eget dignissim varius. In vulputate elit at tortor pellentesque, non pulvinar neque consequat. Aenean tristique odio in libero tincidunt maximus. Nulla pharetra viverra dolor ut blandit. Cras finibus vel tortor eget lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi nec felis auctor, tincidunt lacus sit amet, iaculis ipsum. Phasellus tempus sit amet justo et feugiat. Duis blandit semper lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget neque bibendum, eget euismod justo mollis.</p>
-							<p>Donec tristique porttitor sem, eget fermentum elit varius nec. Donec ut orci ipsum. Morbi efficitur felis eget dapibus fermentum. Phasellus sed tellus volutpat, hendrerit leo non, sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl tellus, at congue odio commodo at. Cras ante enim, sodales at pretium et, tempus at libero.</p>
+							<p>We have a need for uniqueness, to express ourselves, to be recognized and at the same time we want to be part of something bigger than us, we want to belong, to connect.</p>
+							<p>Through blockchain technologies we are merging our universe with yours. As we value uniqueness, community, competition, and entertainment above all else we want to create a bridge.</p>
+							<p>We have downloaded our avatars to these things you call NFTs and want you to help us live the rush of euphoria that only humans experience.</p>
+							<p>-Yeah yeah. That's sounds good, very professional.</p>
+							<p>-I know, right?</p>
 						</div>
 						<a href="https://twitter.com/NFTON_IO/" className="metaportal_fn_button" target="_blank"><span>Find us On Twitter</span></a>
 					</div>
