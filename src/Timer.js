@@ -7,7 +7,7 @@ export default function Timer() {
                 </div>
                 <br/>
                 <div className="soon_countdown">
-                    <h3 className="metaportal_fn_countdown boxed" data-type="due_date" data-date="October 13, 2022 00:00:00" data-days="34" data-hours="9" data-minutes="20" data-seconds="10">0d: 0h: 0m: 0s</h3>
+                    <h3 className="metaportal_fn_countdown boxed" data-type="due_date" data-date="October 16, 2022 00:00:00" data-days="34" data-hours="9" data-minutes="20" data-seconds="10">0d: 0h: 0m: 0s</h3>
                 </div>
             </div>
         </div>

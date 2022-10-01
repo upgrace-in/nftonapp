@@ -1,2 +1,4 @@
-Whitelisted and Contact US working
+Whitelisted
 SEO
+Setup twitter (banner + logo)
+Google script

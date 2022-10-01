@@ -42,14 +42,14 @@ export default function Contact() {
 								</li>
 								<li className="full">
 									<div className="mw300">
-										<a id="send_message" href="#" className="metaportal_fn_button full">
+										<a id="send_message" style={{cursor:'pointer'}} className="metaportal_fn_button full">
 											<span>Send Query</span>
 										</a>
 									</div>
 								</li>
 							</ul>
 						</div>
-						<div className="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
+						<div className="returnmessage" data-success="Your query has been received, We will contact you soon."></div>
 						<div className="empty_notice"><span>! Please Fill Required Fields !</span></div>
 					</form>
 				</div>
