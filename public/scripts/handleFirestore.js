@@ -35,26 +35,53 @@ $(document).ready(async function () {
     // Initializing Firebase
     await firebase.initializeApp(firebaseConfig);
 
-});
+    $("#whitelistBTN").on('click', async function () {
 
-$(".contact_form #send_message").on('click', async function () {
+        $('#whitelistBTN').addClass('disabledBtn')
 
-    $('#send_message').addClass('disabledBtn')
+        var address = $("#walletAddress").val();
+        if (address === '') {
+            // show error
+            $('#whitelistBTN').removeClass('disabledBtn')
+            $('#whitelistBTN').html("invalid Input !!!");
+            setTimeout(() => {
+                $('#whitelistBTN').html("Whitelist Me");
+            }, 1000)
+        } else {
+            $('#whitelistBTN').html("Whitelisting...");
 
-    var name = $(".contact_form #name").val();
-    var email = $(".contact_form #email").val();
-    var message = $(".contact_form #message").val();
-    var success = $(".contact_form .returnmessage").data('success');
+            $('#walletAddress').fadeOut()
 
-    $(".contact_form .returnmessage").empty(); //To empty previous error/success message.
-    //checking for blank fields	
-    if (name === '' || email === '' || message === '') {
-        $('#send_message').removeClass('disabledBtn')
-        $('.contact_form .empty_notice').slideDown(500).delay(2000).slideUp(500);
-    }
-    else {
-        await pushContactQueryToFirebase(name, email, message, success)
-    }
-    return false;
-    
+            await firebase.firestore().collection('whitelisted').doc(address).set({ address }).then(() => {
+                // success message
+                $('#whitelistBTN').removeClass('disabledBtn')
+                $('#whitelistBTN').html("Successfully Whitelisted !!!")
+                $("#whitelistBTN").off()
+            });
+        }
+        return false;
+
+    });
+
+    $(".contact_form #send_message").on('click', async function () {
+
+        $('#send_message').addClass('disabledBtn')
+
+        var name = $(".contact_form #name").val();
+        var email = $(".contact_form #email").val();
+        var message = $(".contact_form #message").val();
+        var success = $(".contact_form .returnmessage").data('success');
+
+        $(".contact_form .returnmessage").empty(); //To empty previous error/success message.
+        //checking for blank fields	
+        if (name === '' || email === '' || message === '') {
+            $('#send_message').removeClass('disabledBtn')
+            $('.contact_form .empty_notice').slideDown(500).delay(2000).slideUp(500);
+        }
+        else {
+            await pushContactQueryToFirebase(name, email, message, success)
+        }
+        return false;
+
+    });
 });

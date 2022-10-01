@@ -1,4 +1,5 @@
 import Whitelisting from './Whitelisting'
+import HandleWhitelistForm from './HandleWhitelistForm'
 import Timer from './Timer'
 
 export default function Home() {
@@ -86,8 +87,8 @@ export default function Home() {
                 <div className="fn_cs_desc">
                     <Timer/>
                     <br/>
-                    {/* <p>NFTON.IO represent a collection of premium NFTs categorized by level of rarity and generated with hundreds of elements. The Legends are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS.</p> */}
                     <Whitelisting/>
+                    <HandleWhitelistForm/>
                 </div>
 
 

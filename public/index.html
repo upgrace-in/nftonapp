@@ -54,11 +54,24 @@
 			font-family: stella !important;
 		}
 
+		#walletAddress {
+			width: 100% !important;
+			margin-right: 10px;
+		}
+
 		.disabledBtn {
 			pointer-events: none;
 			opacity: 0.5;
 		}
 
+		.cr {
+			cursor: pointer !important;
+		}
+
+		button {
+			border: 0;
+		}
+		
 		p,
 		a,
 		.text,
@@ -75,6 +88,16 @@
 
 			.fn_cs_about {
 				margin-bottom: auto !important;
+			}
+
+			#walletAddress {
+				width: 100% !important;
+				margin-right: auto !important;
+				margin-bottom: 20px;
+			}
+
+			#whitelistForm>a {
+				width: 100%;
 			}
 		}
 	</style>
@@ -204,6 +227,12 @@
 				$('.metaportal_fn_leftnav').removeClass('active')
 				$('.metaportal_fn_leftnav_closer').removeClass('active')
 				$('.fn__closer').removeClass('active')
+			})
+
+			$('.unhideWhitelistFormBTN').click(() => {
+				$('.unhideWhitelistFormBTN').hide();
+				$('#whitelistSection').fadeIn();
+				window.scrollTo(0, 800);
 			})
 		})
 	</script>
