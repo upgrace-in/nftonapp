@@ -9,7 +9,7 @@ export default function Counter(){
 							<div className="item">
 								<h3 className="fn__gradient_title">
 									<span className="prefix"></span>
-									<span className="fn_cs_counter" data-from="0" data-to="369" data-speed="4000" data-decimals="0">0</span>
+									<span className="fn_cs_counter" data-from="0" data-to="369" data-speed="2000" data-decimals="0">0</span>
 									<span className="suffix"></span>
 								</h3>
 								<p>Total Scarlett NFTs</p>
@@ -20,7 +20,7 @@ export default function Counter(){
 							<div className="item">
 								<h3 className="fn__gradient_title">
 									<span className="prefix"></span>
-									<span className="fn_cs_counter" data-from="0" data-to="3" data-speed="4000" data-decimals="0">0</span>
+									<span className="fn_cs_counter" data-from="0" data-to="3" data-speed="1000" data-decimals="0">0</span>
 									<span className="suffix"></span>
 								</h3>
 								<p>Max Mint Amount</p>
