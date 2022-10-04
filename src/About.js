@@ -1,10 +1,10 @@
-export default function About(){
-    return (
-        <section id="about">
+export default function About() {
+	return (
+		<section id="about">
 			<div className="fn_cs_about">
 				<div className="left_part lp">
 					<div className="img">
-						<div className="img_in" data-bg-img="assets/NFTON.IO.png"><img src="img/1x1.jpg" alt=""/></div>
+						<div className="img_in" data-bg-img="assets/NFTON.IO.png"><img src="img/1x1.jpg" alt="" /></div>
 					</div>
 					<div className="bg_overlay bo">
 						<div className="bg_color"></div>
@@ -13,7 +13,7 @@ export default function About(){
 				</div>
 				<div className="right_part">
 					<div className="right_in">
-						<h3 className="fn__maintitle" data-text="The Rise of NFTON.IO">The Rise of NFTON.IO</h3>
+						<h3 className="fn__maintitle" data-text="ABOUT US">ABOUT US</h3>
 						<div className="fn_cs_divider">
 							<div className="divider">
 								<span></span>
@@ -21,18 +21,22 @@ export default function About(){
 							</div>
 						</div>
 						<div className="desc">
-							<p>We have a need for uniqueness, to express ourselves, to be recognized and at the same time we want to be part of something bigger than us, we want to belong, to connect.</p>
+							{/* <p>We have a need for uniqueness, to express ourselves, to be recognized and at the same time we want to be part of something bigger than us, we want to belong, to connect.</p>
 							<p>Through blockchain technologies we are merging our universe with yours. As we value uniqueness, community, competition, and entertainment above all else we want to create a bridge between web2 &amp; web3</p>
 							<p>We have downloaded our avatars to these things you call NFTs and want you to help us live the rush of euphoria that only humans experience.</p>
 							<p>-Yeah yeah. That's sounds good, very professional.</p>
-							<p>-I know, right?</p>
+							<p>-I know, right?</p> */}
+							<p>Our objective is to promote innovation in the NFT market. In some genuine ways:</p>
+							<p>-All creators will be able to get their own collections, minting websites, and smart contracts in high discounts. Without learning new skills or spending thousands of dollars, this will be possible. Web3 will be open to everyone.</p>
+							<p>-From the start, every holder will be consider whitelisted for all of the future premium NFTs.</p>
+							<p>-Every holder will get lifetime discount to our upcoming tools &amp; services.</p>
 						</div>
 						<a href="https://twitter.com/NFTON_IO/" className="metaportal_fn_button" target="_blank"><span>Find us On Twitter</span></a>
 					</div>
 				</div>
 			</div>
-			
-			
+
+
 			<div className="container" id="how-to-mint">
 				<div className="fn_cs_mint">
 					<div>
@@ -87,12 +91,12 @@ export default function About(){
 						</div> */}
 						{/* <a href="nft-single.html" className="metaportal_fn_button"><span>How to Mint</span></a> */}
 					</div>
-					
-					
-					
+
+
+
 				</div>
 			</div>
-			
+
 		</section>
-    )
+	)
 }
