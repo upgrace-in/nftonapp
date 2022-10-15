@@ -1,5 +1,6 @@
 import Whitelisting from './Whitelisting'
 import HandleWhitelistForm from './HandleWhitelistForm'
+import Minting from './Minting'
 import Timer from './Timer'
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
         <section id="home">
             <div className="container">
 
-                <h3 className="fn__maintitle big" data-text="Scarlett GIRL" data-align="center">Scarlett GIRL</h3>
+                <h3 className="fn__maintitle big" data-text="PUBLIC SALE STARTED" data-align="center">PUBLIC SALE STARTED</h3>
 
                 <div className="fn_cs_slider" data-responsive="on">
                     <div className="slider_top">
@@ -17,7 +18,7 @@ export default function Home() {
                                     <div className="item">
                                         <img src="img/1x1.jpg" alt=""/>
                                             <div className="item_in">
-                                                <div className="img" data-bg-img="watermarks/CG_1.png"></div>
+                                                <div className="img" data-bg-img="nfts/1.png"></div>
                                             </div>
                                     </div>
                                 </li>
@@ -25,7 +26,7 @@ export default function Home() {
                                     <div className="item">
                                         <img src="img/1x1.jpg" alt=""/>
                                             <div className="item_in">
-                                                <div className="img" data-bg-img="watermarks/CG_2.png"></div>
+                                                <div className="img" data-bg-img="nfts/7.png"></div>
                                             </div>
                                     </div>
                                 </li>
@@ -33,7 +34,7 @@ export default function Home() {
                                     <div className="item has_video">
                                         <img src="img/1x1.jpg" alt=""/>
                                             <div className="item_in">
-                                                <div className="img" data-bg-img="watermarks/CG_3.png"></div>
+                                                <div className="img" data-bg-img="nfts/2.png"></div>
                                             </div>
                                     </div>
                                 </li>
@@ -41,7 +42,7 @@ export default function Home() {
                                     <div className="item">
                                         <img src="img/1x1.jpg" alt=""/>
                                             <div className="item_in">
-                                                <div className="img" data-bg-img="watermarks/CG_4.png"></div>
+                                                <div className="img" data-bg-img="nfts/3.png"></div>
                                             </div>
                                     </div>
                                 </li>
@@ -49,7 +50,7 @@ export default function Home() {
                                     <div className="item">
                                         <img src="img/1x1.jpg" alt=""/>
                                             <div className="item_in">
-                                                <div className="img" data-bg-img="watermarks/CG_5.png"></div>
+                                                <div className="img" data-bg-img="nfts/4.png"></div>
                                             </div>
                                     </div>
                                 </li>
@@ -57,7 +58,7 @@ export default function Home() {
                                     <div className="item">
                                         <img src="img/1x1.jpg" alt=""/>
                                             <div className="item_in">
-                                                <div className="img" data-bg-img="watermarks/CG_6.png"></div>
+                                                <div className="img" data-bg-img="nfts/6.png"></div>
                                             </div>
                                     </div>
                                 </li>
@@ -65,7 +66,7 @@ export default function Home() {
                                     <div className="item">
                                         <img src="img/1x1.jpg" alt=""/>
                                             <div className="item_in">
-                                                <div className="img" data-bg-img="watermarks/CG_7.png"></div>
+                                                <div className="img" data-bg-img="nfts/5.png"></div>
                                             </div>
                                     </div>
                                 </li>
@@ -85,10 +86,11 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="fn_cs_desc">
-                    <Timer/>
-                    <br/>
-                    <Whitelisting/>
-                    <HandleWhitelistForm/>
+                    {/* <Timer/> */}
+                    {/* <br/> */}
+                    {/* <Whitelisting/>
+                    <HandleWhitelistForm/> */}
+                    <Minting/>
                 </div>
 
 

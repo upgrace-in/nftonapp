@@ -12,76 +12,76 @@ export default function Collection() {
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="watermarks/CG_1.png"></div>
+                                    <div className="abs_img" data-bg-img="nfts/1.png"></div>
                                     <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_1.png" />
+                            <input type="hidden" value="nfts/1.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="watermarks/CG_2.png"></div>
+                                    <div className="abs_img" data-bg-img="nfts/2.png"></div>
                                     <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_2.png" />
+                            <input type="hidden" value="nfts/2.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="watermarks/CG_3.png"></div>
+                                    <div className="abs_img" data-bg-img="nfts/3.png"></div>
                                     <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_3.png" />
+                            <input type="hidden" value="nfts/3.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="watermarks/CG_4.png"></div>
+                                    <div className="abs_img" data-bg-img="nfts/4.png"></div>
                                     <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_4.png" />
+                            <input type="hidden" value="nfts/4.png" />
                         </div>
                     </div>
                     <div className="collection_bottom">
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="watermarks/CG_5.png"></div>
+                                    <div className="abs_img" data-bg-img="nfts/5.png"></div>
                                     <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_5.png" />
+                            <input type="hidden" value="nfts/5.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="watermarks/CG_6.png"></div>
+                                    <div className="abs_img" data-bg-img="nfts/7.png"></div>
                                     <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_6.png" />
+                            <input type="hidden" value="nfts/7.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="watermarks/CG_7.png"></div>
+                                    <div className="abs_img" data-bg-img="nfts/6.png"></div>
                                     <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_7.png" />
+                            <input type="hidden" value="nfts/6.png" />
                         </div>
                         <div className="item">
                             <div className="item_in">
                                 <div className="img">
-                                    <div className="abs_img" data-bg-img="watermarks/CG_8.png"></div>
+                                    <div className="abs_img" data-bg-img="nfts/8.png"></div>
                                     <img src="img/1x1.jpg" alt="" />
                                 </div>
                             </div>
-                            <input type="hidden" value="watermarks/CG_8.png" />
+                            <input type="hidden" value="nfts/8.png" />
                         </div>
                     </div>
                 </div>

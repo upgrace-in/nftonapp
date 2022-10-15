@@ -2865,6 +2865,19 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	color: var(--hc);
 }
 
+.center_it{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.mintVals{
+	font-size: 2.5rem !important;
+}
+
+.cur{
+	cursor: pointer;
+}
 
 
 .creative_link{
@@ -5402,7 +5415,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	.metaportal_fn_mint_top{
 		padding-top: 150px;
 	}
-	#home{padding-top: 150px;}
+	#home{padding-top: 60px;}
 	.metaportal_fn_searchbox input{
 		font-size: 26px;
 		height: 70px;

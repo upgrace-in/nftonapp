@@ -16,7 +16,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div className="wallet">
-                        <a href="https://twitter.com/NFTON_IO" className="metaportal_fn_button wallet_opener"><span>Twitter</span></a>
+                        <a href="#mintSection" className="metaportal_fn_button"><span>Mint</span></a>
                     </div>
                 </div>
             </div>

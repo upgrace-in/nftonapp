@@ -7,6 +7,8 @@ import About from './About'
 import Divider from './Divider'
 import React from 'react';
 import Footer from './Footer'
+import Samples from './Samples'
+import Services from './Services'
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
           <Home />
           <Counter />
           <About />
+
+          {/* <Divider />
+          <Samples/>
+          <Divider />
+          <Services/> */}
+          
           <Divider />
           <Collection />
           <Divider />
