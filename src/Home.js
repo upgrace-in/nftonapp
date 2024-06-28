@@ -8,7 +8,7 @@ export default function Home() {
         <section id="home">
             <div className="container">
 
-                <h3 className="fn__maintitle big" data-text="PUBLIC SALE STARTED" data-align="center">PUBLIC SALE STARTED</h3>
+                <h3 className="fn__maintitle big" data-text="PUBLIC SALE STARTED" data-align="center">STEP EARN SHOES</h3>
 
                 <div className="fn_cs_slider" data-responsive="on">
                     <div className="slider_top">
